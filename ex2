@@ -1,0 +1,14 @@
+ublic class tienCaPHe {
+
+    public static void main(String[] args) {
+        HoaDonCaPhe hd1 = new HoaDonCaPhe("trung nguyen", 100000, 1.5);
+        HoaDonCaPhe hd2 = new HoaDonCaPhe("trung nguyen", 100000, 5.5);
+        System.out.println("Tong tien " + hd1.tinhTongTien());
+        System.out.println("kiem tra khoi luong >2kg " + hd1.kiemTraKhoiLuongLonHon(2));
+        System.out.println("Kiem tra tong tien lon hon 500K " + hd2.kiemTraTongTienLonHon500k());
+        System.out.println("Giam gia cua hd : " + hd1.giamGia(10));
+        System.out.println("Giam gia cua hd : " + hd2.giamGia(10));
+        System.out.println("Tien phai thanh toan hoa don 1 la : "+ hd1.tienPhaiTra(15));
+        System.out.println("Tien phai thanh toan hoa don 2 la : "+ hd2.tienPhaiTra(15));
+    }
+}
